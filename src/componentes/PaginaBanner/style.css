@@ -1,0 +1,75 @@
+main div{
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    background-image: url('../../../public/assets/bannerPrincipal.jpg');
+    width:100%;
+    height: 800px;
+    background-size: cover; 
+}
+
+main a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px black;
+    text-decoration: none;
+    color: rgb(26, 156, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main a:hover{
+    width: 310px;
+    height: 110px;
+    font-size: 32px;
+}
+section .imagemWhats{
+    background-image: url("https://i.pinimg.com/originals/2a/3d/4b/2a3d4b8d54271efdf7938fbe6dae6195.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 10px 5px black;
+    border-radius: 50%;
+}
+
+.banner img{
+    width: 100%;
+    background-size: cover;
+}
+
+@media (max-width: 550px) {
+    header div {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+        
+    }
+    .banner {
+        height: 800px;
+    }
+    
+    main a{
+        width: 60%;
+        height: 60px;
+        font-size: 25px;
+    }
+    main a:hover{
+        width: 65%;
+        height: 52px;
+        font-size: 27px;
+    }
+    main .imagemWhats{
+        width: 50px;
+        height: 50px;
+    }
+}

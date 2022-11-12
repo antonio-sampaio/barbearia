@@ -1,0 +1,28 @@
+section .sobre{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.sobre h1{
+    margin-top: 100px;
+}
+.sobre .subTitulo{
+    font-weight: 1000;
+    line-height: 20px;
+}
+section .imagemBaixo{
+    width: 200px;
+    height: auto;
+    margin-bottom: 100px;
+}
+.imagemBaixo img{
+    width: 150px;
+}
